@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Website-Blocker",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["https://vancouver.craigslist.org/",
+                        "https://whistler.craigslist.org/"],
+            "js": ["Content.js"]
+        }
+    ]
+}
